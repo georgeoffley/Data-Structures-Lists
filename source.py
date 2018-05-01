@@ -37,36 +37,40 @@ print ("Pop Index Example: ")
 for x in avengers:
     print (x)
 
-# Remove from
+# Index example
+print (avengers.index('Black Widow'))
+
+# Remove from # Remove example
 avengers.remove('Captain America')
 
 print ("Remove Example: ")
 for x in avengers:
     print (x)
 
-# Insert at given position
+# Insert at given position # insert example
 avengers.insert(0, 'Spider Man')
 
 print ("Insert Example: ")
 for x in avengers:
     print (x)
 
-# Count the number of values
+# Count the number of values # Count example
 how_many_spider_mans = avengers.count('Spider Man')
 
 print ("Count Example Example: How Manny Spider Men are there?")
 print (how_many_spider_mans)
 
-# Nest Lists
+# Nest Lists # GoTG list
 gotg = ['Star Lord', 'Rocket', 'Groot', 'Drax', 'Gamora']
 
+# Nested lists example
 avengers.append(gotg)
 
 print ("Append Nested List Example: ")
 for x in avengers:
     print (x)
 
-# Removes all the values from the Lists
+# Removes all the values from the Lists # Clear example
 avengers.clear()
 
 print ("Clear Example: ")
