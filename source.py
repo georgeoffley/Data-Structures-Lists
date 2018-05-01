@@ -5,7 +5,7 @@ list = [1,2,3]
 
 print (list)
 
-# Here we are adding things to a list using a CSV file
+# Here we are creating our list.
 avengers = ['Iron Man','Captain America','Black Widow','The Hulk','Hawkeye','Thor', 'Falcon']
 
 print (avengers)
